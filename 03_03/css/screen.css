@@ -1,0 +1,55 @@
+html {
+	background-color: gray;
+}
+body {
+	font-family: Tahama, sans-serif;
+	font-size: 78%;
+}
+.container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding-right: 40px;
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+header h1 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 165%;
+}
+header p {
+	margin: 0;
+}
+header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: gray;
+}
+.content-area {
+	border-top: solid blue;
+	border-bottom: 3px solid blue;
+}
+.main-area {
+	width: 55%;
+	float: left;
+	padding-right: 40px;
+}
+.sidebar {
+	width: 40%;
+	float: left;
+	background-color: #e5e9dc;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	font-size: 85%;
+}
+.fix {
+	clear: both;
+}
+footer {
+	padding-bottom: 20px;
+	text-align: right;
+	color: lightblue;
+
+}

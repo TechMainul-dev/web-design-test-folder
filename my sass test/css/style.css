@@ -1,0 +1,30 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  backround-color: red;
+  color: blue;
+  font-family: verdana;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.header .text {
+  background-color: red;
+  padding: 550px;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  backround-color: red;
+  color: blue;
+  font-family: verdana;
+  font-size: 20px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */

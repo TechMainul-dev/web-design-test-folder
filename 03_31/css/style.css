@@ -1,0 +1,86 @@
+html {
+	background-color: lightblue;	
+}
+body {
+	box-sizing: border-box;
+	padding: 20px;
+}
+.container {
+	width: 940px;
+	margin: auto;
+	background-color: white;
+	padding: 30px;
+}
+header {
+	padding-bottom: 0px;
+	color: blue;
+}
+header h1,h4 {
+	margin: 0px;
+	font-weight: normal;
+}
+/*Start Nav Area*/
+
+.site_nav {
+	margin: 20px 0px 0px 0px;
+}
+.site_nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+.site_nav li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+.site_nav a {
+	display: block;
+	text-decoration: none;
+	color: blue;
+	padding: 10px 20px;
+	border: 3px solid lightblue;
+}
+.site_nav a:hover {
+	background-color: lightblue;
+}
+
+/*End Nav Area*/
+.content_area {
+	border-top: 4px solid lightblue;
+	border-bottom: 4px solid lightblue;
+	text-align: justify;
+}
+.main_area {
+	width: 60%;
+	float: left;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.sidebar {
+	width: 40%;
+	float: right;
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: lightblue;
+}
+.fix {
+	clear: both;
+}
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+footer {
+	text-align: center;
+	font-size: 85%;
+	color: lightblue;
+}

@@ -1,0 +1,138 @@
+html{
+	background-color: #FFFFFF;
+}
+body {
+  font-family: 'Titillium Web', sans-serif;
+  text-rendering: optimizeLegibility;
+  line-height: 1.3;
+  box-sizing: border-box;
+  margin: 0px;
+
+}
+.content_area {
+	width: 940px center;
+	width: 60%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.container {
+	text-align: center;
+	margin: 0 auto;
+}
+/*Start Header Area*/
+.header_area {
+	background-color: #3b38b8;
+	height: 700px;
+	color: #fff;
+}
+.header_area_nav h1 {
+	float: left;
+}
+.header_area_nav nav {
+	float: right;
+}
+.header_area_bar h2{
+	float: bottom;
+	padding: 200px; 
+}
+.header_area_bar .work_area input{
+	background-color: #EB7D4B;
+	color: #fff;
+	padding: 10px 30px;
+}
+.site_nav {
+	margin-top: 20px;
+}
+
+.site_nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.site_nav li {
+	list-style: none;
+	float: right;
+	margin-right: 5px;
+}
+.site_nav a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-bottom: none;
+}
+.site_nav li:hover > a,
+.site_nav a:hover {
+	background-color: #692B82;
+}
+/*End header_area Area*/
+
+/*Start service_area Area*/
+.service_area {
+	background-color: #16C2A4;
+	height: 650px;
+	width: auto;
+	margin: 0;
+
+}
+/*End service_area Area*/
+
+/*Start team_intro_area Area*/
+.team_intro_area{
+	background-color: #E8F2F8;
+	height: ;
+	width: auto;
+
+}
+/*End team_intro_area Area*/
+
+/*Start skills_area Area*/
+.skills_area {
+	height: ;
+	width: auto;
+
+}
+/*End skills_area Area*/
+
+/*Start portfolio_area Area*/
+.portfolio_area {
+	background-color: #FFDD99;
+	height: ;
+	width: auto;
+
+}
+/*End portfolio_area Area*/
+
+/*Start about_us_area Area*/
+.about_us_area {
+	background-color: #D74680;
+	height: ;
+	width: auto;
+
+}
+/*End about_us_area Area*/
+
+/*Start feedback_area Area*/
+.feedback_area {
+	background-color: #;
+	height: ;
+	width: auto;
+
+}
+/*End feedback_area Area*/
+
+/*Start footer_area Area*/
+.social_area {
+	width: 60%;
+	margin: auto;
+}
+.footer_area {
+	background-color: #3C5399;
+	height: ;
+	width: auto;
+
+}
+/*End footer_area Area*/
+.fix {
+	clear: both;
+}
