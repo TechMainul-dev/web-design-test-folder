@@ -237,6 +237,20 @@ header p {
 	margin-bottom: 7px;
 }
 
+/* Reveal and Hide Styles */
+.toggle-btn {
+	display: none;	
+}
+.toggle-btn-visible {
+	display: block;
+}
+.toggle-target-hidden {
+	display: none;
+}
+.toggle-target-expanded {
+	display: block;
+}
+
 /*Grid*/
 .row {
 	margin-right: -20px;
