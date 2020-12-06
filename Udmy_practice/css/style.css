@@ -242,6 +242,9 @@ header p {
 	text-decoration: underline;
 	background-color: rgb(16, 1, 228);
 	color: rgb(255, 255, 255);
+	width: 20%;
+	padding: 5px 2px;
+	text-align: center;
 }
 .read-more:hover {
 	text-decoration: none;
