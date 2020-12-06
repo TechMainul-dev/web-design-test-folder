@@ -121,7 +121,7 @@ header p {
 .site_nav li {
     list-style: none;
     float: left;
-   margin-right: 2px;
+	margin-right: 2px;
 }
 
 
@@ -240,11 +240,13 @@ header p {
 /* Reveal and Hide Styles */
 .read-more {
 	text-decoration: underline;
-	color: darkblue;
-	font-size: medium bold;
+	background-color: rgb(16, 1, 228);
+	color: rgb(255, 255, 255);
 }
 .read-more:hover {
 	text-decoration: none;
+	background-color: rgb(9, 167, 119);
+	color: rgb(255, 255, 255);
 }
 .toggle-btn {
 	display: none;	
@@ -259,6 +261,16 @@ header p {
 	.toggle-target-expanded {
 		display: block;
 	}
+}
+
+.main-area .toggle-btn-visible {
+	display: block;
+}
+.main-area .toggle-target-hidden {
+	display: none;
+}
+.main-area .toggle-target-expanded {
+	display: block;
 }
 
 /*Grid*/
