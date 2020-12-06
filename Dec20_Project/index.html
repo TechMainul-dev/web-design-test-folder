@@ -6,10 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Dec20_Project</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            margin: 0;
+        }
+
+        #main {
+            display: flex;
+            flex: 1;
+        }
+
+        #main>article {
+            flex: 1;
+            order: 1;
+        }
+
+        #main>nav,
+        #main>aside {
+            flex: 0 0 20vw;
+        }
+
+        #main>nav {
+            background: #31be18;
+            order: 3;
+        }
+
+        #main>aside {
+            background: rgb(167, 167, 62);
+            order: 2;
+        }
+
+        header,
+        footer {
+            background: yellowgreen;
+            height: 20vh;
+        }
+
+        header,
+        footer,
+        article,
+        nav,
+        aside {
+            padding: 1em;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>This is december project</h1>
+    <header>Header</header>
+    <div id="main">
+        <article>Article</article>
+        <nav>Nav RIght</nav>
+        <aside>Aside</aside>
+    </div>
+    <footer>Footer</footer>
+
 
 </body>
 
